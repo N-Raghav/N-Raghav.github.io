@@ -14,7 +14,13 @@ body {
   background-color: #040404;
   color: #fff;
   position: sticky;
-  background: transparent;
+
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 body::before {
@@ -25,9 +31,17 @@ body::before {
   left: 0;
   right: 0;
   top: 0;
-  height:300vh;
+  bottom: 0;
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  body::before {
+    background-size: cover; /* Ensure the GIF covers the screen on mobile */
+    background-position: center; /* Center the background on mobile */
+  }
+}
+
 
 
 @media (min-width: 1024px) {
