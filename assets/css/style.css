@@ -19,15 +19,16 @@ body {
 
 body::before {
   content: "";
-  position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
-  background-size: cover;
+  position: absolute;
+  background: #040404 url("../img/bg.gif") no-repeat right;
+  background-size: contain;
   left: 0;
   right: 0;
   top: 0;
-  height: 100vh;
+  height:300vh;
   z-index: -1;
 }
+
 
 @media (min-width: 1024px) {
   body::before {
@@ -82,7 +83,7 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: #ffffff;
+  color: #18d26e;
   line-height: 1;
   display: inline-block;
 }
@@ -114,7 +115,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
+  background:#18d26e;
   color: #000000;
   line-height: 1;
   margin-right: 8px;
@@ -271,7 +272,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #000000;
+  color: #18d26e;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -337,6 +338,9 @@ h6 {
   font-size: 16px;
   position: relative;
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Sections General
