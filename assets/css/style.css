@@ -206,6 +206,32 @@ h6 {
     font-size: 26px;
   }
 }
+#header.achievement {
+  margin-bottom: 20px;
+}
+
+#header.achievement i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+#header.achievement h3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#header.achievement ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+#header.vertical-line {
+  border-left: 2px solid #18d26e;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
