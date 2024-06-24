@@ -813,7 +813,23 @@ section .container {
 .services .icon-box:hover p {
   color: #fff;
 }
-
+.services {
+  list-style-type: none;
+  color: #18d26e;; /* Green color */
+  padding-left: 0;
+}
+.services li {
+  position: relative;
+  padding-left: 1.5em; /* Space for the bullet */
+}
+.services li:before {
+  content: "\2022"; /* Bullet character */
+  color: #18d26e;; /* Green color */
+  font-size: 1.2em;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
